@@ -1,0 +1,19 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+jupyterlab==4.2.1
+ipywidgets==8.1.2
+
+# For VIF / stats tests
+statsmodels==0.14.2
+
+# For SHAP
+shap==0.45.0
+
+# For LightGBM (tree model)
+lightgbm==4.3.0
+
+# For XGBoost (tree model)
+xgboost==2.0.3
