@@ -1,5 +1,7 @@
 # Predicting Mental Health Outcomes in International Students
 
+**View the analysis:** [notebooks/analysis.ipynb](notebooks/analysis.ipynb)
+
 ## Overview
 This project applies machine learning to explore and predict mental health outcomes (depression, acculturative stress, and suicidal ideation) among international and domestic students at Ritsumeikan Asia Pacific University in Japan.
 
