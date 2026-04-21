@@ -2,6 +2,8 @@
 
 **View the analysis:** [notebooks/analysis.ipynb](notebooks/analysis.ipynb)
 
+To run the notebook, download the dataset from the Data Source section below and place it in `data/`.
+
 ## Overview
 This project applies machine learning to explore and predict mental health outcomes (depression, acculturative stress, and suicidal ideation) among international and domestic students at Ritsumeikan Asia Pacific University in Japan.
 
@@ -42,6 +44,8 @@ The results suggest:
 Nguyen, M.-H. et al. (2019)  
 *A Dataset of Students’ Mental Health and Help-Seeking Behaviors in a Multicultural Environment*  
 https://doi.org/10.3390/data4030124  
+
+The dataset and associated questionnaire can be accessed via the publication.
 
 ---
 
