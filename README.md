@@ -7,7 +7,24 @@ To run the notebook, download the dataset from the Data Source section below and
 ## Overview
 This project applies machine learning to explore and predict mental health outcomes (depression, acculturative stress, and suicidal ideation) among international and domestic students at Ritsumeikan Asia Pacific University in Japan.
 
-A full pipeline was implemented, including data cleaning, feature selection, preprocessing, and cross-validated evaluation for both regression and classification tasks.
+An end-to-end machine learning pipeline was implemented, including data cleaning, feature selection, preprocessing, and cross-validated evaluation for both regression and classification tasks. Key variables used in the analysis are summarised below.
+
+| Variable | Explanation | Original | Encoding |
+|---|---|---|---|
+| depression | Depression score (PHQ-9) | 0–25 | - |
+| suicidal_ideation | Suicidal ideation (past 2 weeks, PHQ-9) | No / Yes | 0 / 1 |
+| acculturative_stress | Acculturative stress score (ASISS) | 0–145 | - |
+| inter_dom | Student status (domestic/international) | Dom / Inter | 0 / 1 |
+| gender | Self-identified gender | Female / Male | 0 / 1 |
+| academic | Current academic level | Under / Grad | 0 / 1 |
+| intimate | Has intimate partner | No / Yes | 0 / 1 |
+| religion | Is religious | No / Yes | 0 / 1 |
+| age | Age | 17–31 | - |
+| stay | Time enrolled (years) | 1–10 | - |
+| japanese | Japanese proficiency (self-rated) | 1–5 | - |
+| english | English proficiency (self-rated) | 1–5 | - |
+
+Full variable definitions and mappings are available in `data/feature_target_explanations.xlsx`.
 
 ---
 
